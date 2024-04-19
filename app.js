@@ -14,7 +14,7 @@ awsParamEnv.load(`/course-catalog/${process.env.NODE_ENV}`, {
       accessKeyId: process.env.AWS_ACCESS_KEY,
       secretAccessKey: process.env.AWS_SECRET_KEY,
    },
-   region: "us-east-1",
+   region: "ap-southeast-1",
 });
 
 const app = express();
